@@ -99,18 +99,3 @@ export const deleteBlog = (blogId) => {
           .then(response => response.data)
           .catch(err => rejectPromise(err));
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
